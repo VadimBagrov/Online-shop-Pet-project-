@@ -1,0 +1,40 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+.header {
+    &__inner {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__currency {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+    &__basket {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.menu {
+    &__list {
+        display: flex;
+    }
+    &__list-item {
+        padding-right: 33px;
+    }
+    &__list-link {
+        @extend %text-main;
+        line-height: 17px;
+        font-size: 14px;
+        color: $default;
+    }
+}

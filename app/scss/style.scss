@@ -38,3 +38,46 @@
         color: $default;
     }
 }
+
+.footer {
+    background-color: #F8F9FA;
+    &__content {
+        height: 300px;
+    }
+    &__copyright {
+        height: 78px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    &__info-title {
+        margin-bottom: 43px;
+        line-height: 120%;
+        font-size: 18px;
+        color: $footer;
+    }
+    &__info-text {
+        width: 304px;
+        line-height: 19px;
+    }
+    &__title {
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 27px;
+        @extend %title;
+    }
+    &__link {
+        color: $default;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__copyright {
+        p{
+            @extend %title;
+            line-height: 21px;
+            font-size: 18px;
+        }
+    }
+}

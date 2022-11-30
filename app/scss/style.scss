@@ -16,6 +16,19 @@
         border: none;
         cursor: pointer;
         padding-right: 20px;
+        position: relative;
+        &::before {
+            content:'';
+            position: absolute;
+            width: 8px;
+            height: 5px;
+            top: 7px;
+            left: 18px;
+            background-repeat: no-repeat;
+        }
+    }
+    &__currency--choice::before {
+        background-image: url(../images/choice.svg);
     }
     &__basket {
         background-color: transparent;
@@ -29,13 +42,27 @@
         display: flex;
     }
     &__list-item {
-        padding-right: 33px;
+        padding-right: 20px;
     }
     &__list-link {
+        position: relative;
         @extend %text-main;
         line-height: 17px;
         font-size: 14px;
         color: $default;
+        padding-right: 13px;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 8px;
+            top: 6px;
+            left: 82px;
+            background-repeat: no-repeat;
+        }
+    }
+    &__list-link--choice::before{
+        background-image: url(../images/choice.svg);
     }
 }
 
@@ -43,9 +70,21 @@
     background-color: #F8F9FA;
     &__content {
         height: 300px;
+        &::after {
+            content: '';
+            position: absolute;
+            max-width: 1350px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 910px;
+            margin: 0 auto;
+            height: 1px;
+            background: #DCE5E2;
+        }
     }
     &__copyright {
-        height: 78px;
+        position: relative;
     }
     &__inner {
         display: flex;

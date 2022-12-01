@@ -4,7 +4,7 @@ body {
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
@@ -17,7 +17,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-    justify-content: space-between;
 }
 
 .main {
@@ -29,9 +28,9 @@ body{
 // Все что выше отвечает чтобы Футер был прижат к низу страницы
 
 .container{
-    max-width: 1294px;
-    margin: 0 auto;
-    padding: 0 0;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-fluid{
@@ -47,18 +46,37 @@ body{
     li {
         margin: 0 15px;
     }
-    button {
-        background-color: $default;
+    button{
+        background-color: $title;
         border: none;
-        width: 194px;
-        height: 2px;
-        border-radius: 0;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
         padding: 0;
         font-size: 0; //Убирет нумерацию
     }
     li.slick-active {
-        button {
+        button{
             background-color: #FFEF35;
         }
     } //Подсвечивается активный слайд
 }//Класс в которои хранятся точки
+
+.info-email {
+    font-weight: 600;
+    font-size: 14px;
+    color: $title;
+    margin-bottom: 22px;
+    padding-left: 30px;
+    display: inline-block;
+    position: relative;
+    &::before {
+        content: '';
+        background-image: url(../images/envelope.svg);
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 16px;
+        height: 12px;
+    }
+}

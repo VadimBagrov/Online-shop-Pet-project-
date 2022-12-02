@@ -3,497 +3,518 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designer furniture</title>
-    <meta name="description" content="Site with designer furniture for every taste">
+
+    <title>Saint Coast Store</title>
+    <meta name="description" content="Магазин техники Saint Coast Store">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500;700&family=Raleway:wght@300;600;700&family=Readex+Pro&family=Roboto+Condensed:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <!-- Шапка сайта -->
+
     <div class="wrapper">
+        <!-- Navigation Menu -->
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="about.html">About</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__list-link" href="gallery.html">Gallery</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <!-- Логотип главный -->
-                    <a class="logo" href="index.html">
-                        <img src="images/logo.png" alt="Logo">
+                    <!-- Logo -->
+                    <a class="logo" href="#">
+                        <img src="images/logo.png" alt="logo">
                     </a>
+                    <!-- Menu -->
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="blog.html">Blog</a>
+                                <a class="menu__list-link" href="#">ALL PRODUCTS</a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link" href="contacts.html">Contact</a>
+                                <a class="menu__list-link  menu__list-link--choice" href="#">SOLUTIONS</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">ABOUT</a>
+                            </li>
+                            <!-- Finish the button  -->
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">SUPPORT</a>
                             </li>
                         </ul>
                     </nav>
-                    <!-- Кнопка меню -->
-                    <button class="header__btn">
-                        <img src="images/icon_menu.svg" alt="icon menu">
-                    </button>
-                    <div class="rightside-menu rightside-menu--close">
-                        <button class="rightside-menu__close">
-                            <img src="images/close.svg" alt="">
+                    <!-- Buttons -->
+                    <div class="header__btn">
+                        <!-- Choice of currency -->
+                        <button class="header__currency header__currency--choice">
+                            <img src="images/$.png" alt="$">
                         </button>
-                        <div class="rightside-menu__content">
-                            <a class="rightside-menu__logo" href="">
-                                <img src="images/logo-big.png" alt="big logo">
-                            </a>
-                            <h4 class="rightside-menu__title">
-                                Furniture for life
-                            </h4>
-                            <p class="rightside-menu__text">
-                                Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb
-                                everyday carry +1 art party
-                                microdosing, put a bird on it brooklyn
-                            </p>
-                            <img class="rightside-menu__images" src="images/content/rightside-png.jpg" alt="images">
-                        </div>
+                        <!-- Shopping basket -->
+                        <button class="header__basket">
+                            <img src="images/basket.png" alt="shopping-basket">
+                        </button>
                     </div>
                 </div>
             </div>
         </header>
 
-        <!-- Главная секция -->
         <main class="main">
+            <!-- Top section(slider) -->
             <section class="top">
-                <div class="top__inner">
-                    <div class="top__slider">
-                        <div class="top__slider-item">
-                            <img class="top__slider-img" src="images/content/slider-img.png" alt="images">
-                            <div class="top__slider-info">
-                                <h2 class="top__slider-title">
-                                    Furniture
-                                    collection
-                                </h2>
-                                <p class="top__slider-text">
-                                    Deep v you probably haven't heard of them banh mi synth actually affogato. Aesthetic
-                                    lyft ethical drinking vinegar
-                                    austint
-                                </p>
+                <div class="container">
+                    <div class="top__inner">
+                        <div class="top__slider">
+                            <!-- One slide -->
+                            <div class="top__slider-item">
+                                <img class="top__slider-img" src="images/content/slider-iphone.png" alt="images">
+                                <div class="top__slider-info">
+                                    <h2 class="top__slider-title">
+                                        The new phones are here take a look.
+                                    </h2>
+                                    <p class="top__slider-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+                                        aliquam, tempor. Faucibus morbi turpis.
+                                    </p>
+                                    <button class="top__slider-btn" type="submit">Explore</button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="top__slider-item">
-                            <img class="top__slider-img" src="images/content/slider-img.png" alt="images">
-                            <div class="top__slider-info">
-                                <h2 class="top__slider-title">
-                                    Furniture
-                                    collection
-                                </h2>
-                                <p class="top__slider-text">
-                                    Deep v you probably haven't heard of them banh mi synth actually affogato. Aesthetic
-                                    lyft ethical drinking
-                                    vinegar
-                                    austint
-                                </p>
+                            <!-- Two slide -->
+                            <div class="top__slider-item">
+                                <img class="top__slider-img" src="images/content/slider-iphone.png" alt="images">
+                                <div class="top__slider-info">
+                                    <h2 class="top__slider-title">
+                                        The new phones are here take a look.
+                                    </h2>
+                                    <p class="top__slider-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+                                        aliquam, tempor. Faucibus morbi turpis.
+                                    </p>
+                                    <button class="top__slider-btn" type="submit">Explore</button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="top__slider-item">
-                            <img class="top__slider-img" src="images/content/slider-img.png" alt="images">
-                            <div class="top__slider-info">
-                                <h2 class="top__slider-title">
-                                    Furniture
-                                    collection
-                                </h2>
-                                <p class="top__slider-text">
-                                    Deep v you probably haven't heard of them banh mi synth actually affogato. Aesthetic
-                                    lyft ethical drinking
-                                    vinegar
-                                    austint
-                                </p>
+                            <!-- Three slide -->
+                            <div class="top__slider-item">
+                                <img class="top__slider-img" src="images/content/slider-iphone.png" alt="images">
+                                <div class="top__slider-info">
+                                    <h2 class="top__slider-title">
+                                        The new phones are here take a look.
+                                    </h2>
+                                    <p class="top__slider-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui,
+                                        aliquam, tempor. Faucibus morbi turpis.
+                                    </p>
+                                    <button class="top__slider-btn" type="submit">Explore</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Секция о коллекции -->
-            <section class="new-collection">
-                <div class="container-fluid">
-                    <h3 class="new-collection__title">
-                        Furniture new collection
-                    </h3>
-                    <p class="new-collection__text">
-                        Deep v you probably haven't heard of them banh mi synth actually affogato. Aesthetic lyft
-                        ethical drinking vinegar
-                        austint
-                    </p>
-                    <!-- Блоки в коллекции -->
-                    <div class="collection">
-                        <a class="collection__item" href="#">
-                            <img class="collection__images" src="images/content/collection-1.jpg" alt="">
-                            <div class="collection__info">
-                                <h6 class="collection__info-title">
-                                    Truffaut literally trust
-                                </h6>
-                                <p class="collection__info-text">
-                                    Living room furntiture | Chair
-                                </p>
+
+            <!-- Selecting Product Category -->
+            <section class="category">
+                <div class="container">
+                    <div class="category__info">
+                        <h2 class="category__title">
+                            Shop our latest offers and categories
+                        </h2>
+                        <p class="category__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam,
+                            tempor. Faucibus morbi turpis.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                    <!-- category -->
+                    <div class="category__inner">
+                        <a class="category__items category__items--macbook" href="#">
+                            <img class="category__img category__img--macbook" src="images/content/macbook.png"
+                                alt="macbook">
+                            <div class="category__info-text">
+                                <p class="category__category category__text--macbook">Laptops</p>
+                                <h6 class="category__name category__name--macbook">True Laptop Solution</h6>
                             </div>
                         </a>
-                        <a class="collection__item" href="#">
-                            <img class="collection__images" src="images/content/collection-2.jpg" alt="">
-                            <div class="collection__info">
-                                <h6 class="collection__info-title">
-                                    Truffaut literally trust
-                                </h6>
-                                <p class="collection__info-text">
-                                    Living room furntiture | Chair
-                                </p>
+
+                        <a class="category__items category__items--watch" href="#">
+                            <img class="category__img category__img--watch" src="images/content/watch.png" alt="watch">
+                            <div class="category__info-text category__info-watch">
+                                <p class="category__category category__text--watch">Watch</p>
+                                <h6 class="category__name category__name--watch">Not just stylisht</h6>
                             </div>
                         </a>
-                        <a class="collection__item" href="#">
-                            <img class="collection__images" src="images/content/collection-3.jpg" alt="">
-                            <div class="collection__info">
-                                <h6 class="collection__info-title">
-                                    Truffaut literally trust
-                                </h6>
-                                <p class="collection__info-text">
-                                    Living room furntiture | Chair
-                                </p>
+
+                        <a class="category__items category__items--iphone" href="#">
+                            <img class="category__img category__img--iphone" src="images/content/iphone.png"
+                                alt="iphone">
+                            <div class="category__info-text category__info-iphone">
+                                <p class="category__category category__text--iphone">Phones</p>
+                                <h6 class="category__name category__name--iphone">Your day to day life</h6>
                             </div>
                         </a>
-                        <a class="collection__item" href="#">
-                            <img class="collection__images" src="images/content/collection-4.jpg" alt="">
-                            <div class="collection__info">
-                                <h6 class="collection__info-title">
-                                    Truffaut literally trust
-                                </h6>
-                                <p class="collection__info-text">
-                                    Living room furntiture | Chair
-                                </p>
+
+                        <a class="category__items category__items--tablet" href="#">
+                            <div class="category__info-text category__info-tablet">
+                                <p class="category__category category__text--tablet">Tablet</p>
+                                <h6 class="category__name category__name--tablet">Empower your work</h6>
                             </div>
-                        </a>
-                        <a class="collection__item" href="#">
-                            <img class="collection__images" src="images/content/collection-5.jpg" alt="">
-                            <div class="collection__info">
-                                <h6 class="collection__info-title">
-                                    Truffaut literally trust
-                                </h6>
-                                <p class="collection__info-text">
-                                    Living room furntiture | Chair
-                                </p>
-                            </div>
+                            <img class="category__img" src="images/content/tablet.png" alt="tablet">
                         </a>
                     </div>
                 </div>
             </section>
-            <!-- Декоративная секция -->
-            <section class="decor">
+
+            <!-- Section with most selled items  -->
+            <section class="product">
                 <div class="container">
-                    <h2 class="decor__title">
-                        Aesthetic
-                        ethical drinking
-                    </h2>
-                    <p class="decor__text">
-                        Deep v you probably haven't heard of them banh mi synth actually affogato. Artlyft ethical the
-                        one drinking vinegar
-                        austint
-                    </p>
+                    <div class="product__header-info">
+                        <h3 class="product__title">Save on our most selled items.</h3>
+                        <p class="product__text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+                    </div>
+                    <!-- main section -->
+                    <div class="product__inner">
+                        <div class="product__items">
+                            <!-- MacBook -->
+                            <a href="#">
+                                <div class="product__item">
+                                    <img class="product__img" src="images/macbook.png" alt="Macbook">
+                                    <div class="product__info">
+                                        <h6 class="product__name">
+                                            MacBook Pro 13
+                                        </h6>
+                                        <p class="product__info">
+                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+                                        </p>
+                                        <p class="product__price">
+                                            $ 1,200.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Smart Galaxy Watch 3 -->
+                            <a href="#">
+                                <div class="product__item">
+                                    <img class="product__img" src="images/smart watch.png" alt="watches">
+                                    <div class="product__info">
+                                        <h6 class="product__name">
+                                            Smart Galaxy Watch 3
+                                        </h6>
+                                        <p class="product__info">
+                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                            adipisci velit...
+                                        </p>
+                                        <p class="product__price">
+                                            $ 199.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- MacBook Air M1 -->
+                            <a href="#">
+                                <div class="product__item">
+                                    <img class="product__img" src="images/macbook m1.png" alt="macbook m1">
+                                    <div class="product__info">
+                                        <h6 class="product__name">
+                                            MacBook Air M1
+                                        </h6>
+                                        <p class="product__info">
+                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                            adipisci velit...
+                                        </p>
+                                        <p class="product__price">
+                                            $ 1,009.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- iPad -->
+                            <a href="#">
+                                <div class="product__item">
+                                    <img class="product__img" src="images/ipad.png" alt="ipad">
+                                    <div class="product__info">
+                                        <h6 class="product__name">
+                                            iPad
+                                        </h6>
+                                        <p class="product__info">
+                                            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                                            adipisci velit...
+                                        </p>
+                                        <p class="product__price">
+                                            $ 610.00 USD
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <!-- Секция с линией(стадиями разработки) -->
-            <section class="works-path">
-                <div class="container">
-                    <h3 class="works-path__title">
-                        How it works
-                    </h3>
-                    <div class="works-path__items">
-                        <div class="works-path__items-box works-path__item--consultation">
-                            <div class="works-path__item">
-                                <img class="works-path__item-img" src="images/graphic-tool.svg" alt="icon">
-                                <h6 class="works-path__item-title">
-                                    Designer Consultation
-                                </h6>
-                                <p class="works-path__item-text">
-                                    Kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo
-                                    bushwick coloring book. Semiotics man bun
-                                    venmo viral cliche
-                                </p>
-                            </div>
-                            <div class="works-path__item works-path__item--production">
-                                <img class="works-path__item-img" src="images/sofa.svg" alt="icon">
-                                <h6 class="works-path__item-title">
-                                    Production
-                                </h6>
-                                <p class="works-path__item-text">
-                                    Everyday carry actually neutra authentic kogi shabby chic
-                                </p>
+
+                <!-- Section with the best around here  -->
+                <section class="news">
+                    <div class="container">
+                        <div class="news__header-info">
+                            <h3 class="news__title">See the best around here</h3>
+                            <p class="news__text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+                        </div>
+                        <!-- main section -->
+                        <div class="news__inner">
+                            <div class="news__items">
+                                <!-- Watch bloks -->
+                                <div class="news__item">
+                                    <div class="news__info">
+                                        <p class="news__main-title">
+                                            Smart light bulb pack
+                                        </p>
+                                        <h6 class="news__main-text">
+                                            Latest and gratest
+                                        </h6>
+                                        <button class="top__slider-btn news__btn" type="submit">Explore</button>
+                                    </div>
+                                    <a href="#">
+                                        <img class="news__img " src="images/news/watch-news.png" alt="watch-news">
+                                    </a>
+                                </div>
+                                <!-- All Apple bloks -->
+                                <div class="news__item">
+                                    <div class="news__info">
+                                        <p class="news__main-title">
+                                            Smart light bulb pack
+                                        </p>
+                                        <h6 class="news__main-text">
+                                            Best selling
+                                        </h6>
+                                        <button class="top__slider-btn news__btn" type="submit">Explore</button>
+                                    </div>
+                                    <a href="#">
+                                        <img class="news__img" src="images/news/all-apple.png" alt="all apple">
+                                    </a>
+                                </div>
+                                <!-- Smart products -->
+                                <div class="news__item">
+                                    <div class="news__info">
+                                        <p class="news__main-title">
+                                            Smart light bulb pack
+                                        </p>
+                                        <h6 class="news__main-text">
+                                            Every product
+                                        </h6>
+                                        <button class="top__slider-btn news__btn" type="submit">Explore</button>
+                                    </div>
+                                    <a href="#">
+                                        <img class="news__img" src="images/news/smart.png" alt="smart">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="works-path__item works-path__item--measurements">
-                            <img class="works-path__item-img" src="images/measuring-tape.png" alt="icon">
-                            <h6 class="works-path__item-title">
-                                Measurements
-                            </h6>
-                            <p class="works-path__item-text">
-                                Intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche
+                    </div>
+                </section>
+
+                <!-- Section with ideas   -->
+                <section class="idea">
+                    <div class="container">
+                        <div class="idea__info">
+                            <h4 class="idea__title">
+                                Ideas have a place here
+                            </h4>
+                            <p class="idea__text">
+                                Our new Limited Edition Winter Design BESPOKE 4-Door Flex™
                             </p>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Галерея -->
-            <div class="gallery">
-                <div class="container-fluid">
-                    <div class="gallery__buttons">
-                        <button class="gallery__btn" data-filter=".bedroom">Bedroom furniture
-                        </button>
-                        <button class="gallery__btn" data-filter=".living">Living room furniture
-                        </button>
-                        <button class="gallery__btn" data-filter=".office">Office furniture
-                        </button>
-                        <button class="gallery__btn" data-filter=".dining">Dining room futniture
-                        </button>
-                        <button class="gallery__btn" data-filter=".chair">Chair
-                        </button>
-                    </div>
-                    <div class="gallery__inner">
-
-                        <div class="gallery__items mix bedroom">
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/1.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/2.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/3.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/4.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/5.jpg" alt="images">
-                            </a>
-                        </div>
-
-                        <div class="gallery__items mix living">
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/1.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/2.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/3.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/4.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/5.jpg" alt="images">
-                            </a>
-                        </div>
-
-                        <div class="gallery__items mix office">
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/1.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/2.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/3.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/4.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/5.jpg" alt="images">
-                            </a>
-                        </div>
-
-                        <div class="gallery__items mix dining">
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/1.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/2.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/3.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/4.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/5.jpg" alt="images">
-                            </a>
-                        </div>
-
-                        <div class="gallery__items mix chair">
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/1.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/2.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/3.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/4.jpg" alt="images">
-                            </a>
-                            <a class="gallery__item" href="#">
-                                <img src="images/gallery/5.jpg" alt="images">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Блок о блоге -->
-            <section class="blog-box">
-                <div class="container">
-                    <h3 class="blog-box__title">
-                        More inspiration ideas in our blog
-                    </h3>
-                    <div class="blog-box__items">
-                        <div class="blog-box__item">
-                            <a class="blog-box__img-link" href="#">
-                                <img class="blog-box__img" src="images/blog/1.jpg" alt="">
-                            </a>
-                            <div class="blog-box__links">
-                                <span class="blog-box__date">
-                                    March 12, 2020
-                                </span> |
-                                <a class="blog-box__author" href="#">
-                                    by Ann Summers
-                                </a> |
-                                <a class="blog-box__theme" href="#">
-                                    Inrerior
-                                </a>
+                        <div class="idea__inner">
+                            <img class="idea__img" src="images/work.png" alt="images">
+                            <div class="idea__information">
+                                <p class="idea__main-text">
+                                    We Make It Easy To Find The Great Design Talent, Easier...
+                                </p>
+                                <p class="idea__main-text">
+                                    Road Design Handbook For The International Road...
+                                </p>
+                                <p class="idea__main-text">
+                                    The Best Kept Secrets About Creative People
+                                </p>
+                                <p class="idea__main-text">
+                                    We Make It Easy To Find The Great Design Talent, Easier...
+                                </p>
                             </div>
-                            <a class="blog-box__item-titlelink" href="#">
-                                <h4 class="blog-box__item-title">
-                                    Listicle actually selvage activated charcoal for the drinking vinegar
-                                </h4>
-                            </a>
                         </div>
-                        <div class="blog-box__item">
-                            <a class="blog-box__img-link" href="#">
-                                <img class="blog-box__img" src="images/blog/2.jpg" alt="">
-                            </a>
-                            <div class="blog-box__links">
-                                <span class="blog-box__date">
-                                    September 28,2020
-                                </span> |
-                                <a class="blog-box__author" href="#">
-                                    by Finnagan Morningstar
-                                </a> |
-                                <a class="blog-box__theme" href="#">
-                                    Dining room interior
-                                </a>
+                        <a href="#">
+                            <div class="idea__see idea__see--link">
+                                <p>See All</p>
                             </div>
-                            <a class="blog-box__item-titlelink" href="#">
-                                <h4 class="blog-box__item-title">
-                                    Red selfies edison bulb four dollar toast humblebrag
-                                </h4>
-                            </a>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Search -->
+                <section class="search">
+                    <div class="container">
+                        <div class="search__inner">
+                            <p class="search__title">
+                                Looking for anything else?
+                            </p>
+                            <!-- Form search -->
+                            <form class="search__form">
+                                <input type="text" class="search__form-input" type="search"
+                                    placeholder="Search keyword">
+                                <a href="#" class="search__icon"><img src="images/search.svg" alt="search"></a>
+                            </form>
+                            <div class="search__btn">
+                                <!-- Frequent requests -->
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-iPhone"
+                                    type="submit">iPhone</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-charger"
+                                    type="submit">Charger</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-gift"
+                                    type="submit">Gift</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-google"
+                                    type="submit">Google Pixel
+                                    3</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-keyboard"
+                                    type="submit">Keyboard</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-13pro"
+                                    type="submit">13 Pro
+                                    Max</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-iphone12"
+                                    type="submit">iPhone
+                                    12</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-laptop"
+                                    type="submit">Laptop</button>
+                                <button class="top__slider-btn news__btn search__btn-item search__btn-mobile"
+                                    type="submit">Mobile</button>
+                            </div>
+                            <div class="search__email">
+                                <h6 class="search__email-title">
+                                    Never miss a thing
+                                </h6>
+                                <div class="search__email-text">
+                                    Sign up for texts to be notified about our best offers on the perfect gifts
+                                </div>
+                                <img class="search__email-img" src="images/apple-tech.png" alt="apple">
+                                <form class="search__email-form">
+                                    <input type="text" class="search__email-input" type="email"
+                                        placeholder="Your email">
+                                    <button class="search__email-button" type="submit">Sign up</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-
+                </section>
         </main>
 
-        <!-- Футер сайта -->
+        <!-- Footer section -->
         <footer class="footer">
-            <!-- Верхняя часть футера(светлая) -->
+            <!-- The top of the footer -->
             <div class="footer__content">
                 <div class="container">
                     <div class="footer__inner">
-                        <!-- Первый блок со связью -->
+                        <!-- First block (information) -->
                         <div class="footer__info">
                             <h6 class="footer__info-title">
-                                Contact Us
+                                Saint Coast Store
                             </h6>
                             <p class="footer__info-text">
-                                Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably
-                                occupy
+                                Sign up for texts to be notified about our best offers on the perfect gifts.
                             </p>
-                            <a class="info-email" href="mailto:ouremailaddress@email.com">
-                                ouremailaddress@email.com
-                            </a>
-                            <form class="footer__form">
-                                <input type="text" class="footer__form-input" type="email"
-                                    placeholder="Subscribe by email">
-                                <button class="footer__form-button" type="submit">Send</button>
-                            </form>
                         </div>
-                        <!-- Социальные сети -->
-                        <ul class="footer__social">
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--facebook" href="#">Facebook
-                                </a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--instagram" href="#">Instagram
-                                </a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--pinterest" href="#">Pinterest
-                                </a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--whatsapp" href="#">WhatsApp
-                                </a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link footer__social-link--youtube" href="#">Youtube
-                                </a>
-                            </li>
-                        </ul>
-                        <!-- Блок с ссылками -->
-                        <nav class="footer__menu">
-                            <ul class="footer__menu-list">
-                                <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">
-                                        Delivery</a>
+                        <!-- Second block (all products) -->
+                        <div class="footer__products">
+                            <h6 class="footer__products-title footer__title">
+                                All products
+                            </h6>
+                            <ul class="footer_products-items">
+                                <li class="footer__products-item">
+                                    <a class="footer__products-link footer__link" href="#">
+                                        Phones </a>
                                 </li>
-                                <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">
-                                        FAQ</a>
+                                <li class="foot__r-products-item">
+                                    <a class="footer__products-link footer__link" href="#">
+                                        Wath </a>
                                 </li>
-                                <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">
-                                        Help</a>
+                                <li class="footer__products-item">
+                                    <a class="footer__products-link footer__link" href="#">
+                                        Tablet </a>
                                 </li>
-                                <li class="footer__menu-item">
-                                    <a class="footer__menu-link" href="#">
-                                        More About Us</a>
+                                <li class="footer__products-item">
+                                    <a class="footer__products-link footer__link" href="#">
+                                        Laptops </a>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
+                        <!-- Third Block (Company) -->
+                        <div class="footer__company">
+                            <h6 class="footer__company-title footer__title">
+                                Company
+                            </h6>
+                            <ul class="footer__company-items">
+                                <li class="footer__company-item">
+                                    <a class="footer__company-linl footer__link" href="#">About</a>
+                                </li>
+                                <li class="footer__company-item">
+                                    <a class="footer__company-linl footer__link" href="#">Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Fourth block (Supports) -->
+                        <div class="footer__support">
+                            <h6 class="footer__support-title footer__title">
+                                Support
+                            </h6>
+                            <ul class="footer_support-items">
+                                <li class="footer__support-item">
+                                    <a class="footer__support-link footer__link" href="#">
+                                        Style Guide </a>
+                                </li>
+                                <li class="foot__r-support-item">
+                                    <a class="footer__support-link footer__link" href="#">
+                                        Licensing </a>
+                                </li>
+                                <li class="footer__support-item">
+                                    <a class="footer__support-link footer__link" href="#">
+                                        Change Log </a>
+                                </li>
+                                <li class="footer__support-item">
+                                    <a class="footer__support-link footer__link" href="#">
+                                        Contact </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- The fifth block (Follow) -->
+                        <div class="footer__follow">
+                            <h6 class="footer__follow-title footer__title">
+                                Follow Us
+                            </h6>
+                            <ul class="footer_follow-items">
+                                <li class="footer__follow-item">
+                                    <a class="footer__follow-link footer__link" href="#">
+                                        Instagram </a>
+                                </li>
+                                <li class="foot__r-follow-item">
+                                    <a class="footer__follow-link footer__link" href="#">
+                                        Facebook </a>
+                                </li>
+                                <li class="footer__follow-item">
+                                    <a class="footer__follow-link footer__link" href="#">
+                                        LinkedIn </a>
+                                </li>
+                                <li class="footer__follow-item">
+                                    <a class="footer__follow-link footer__link" href="#">
+                                        Youtube </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Нижняя часть футера(темная) -->
+            <!-- Bottom of the footer -->
             <div class="footer__copyright">
                 <div class="container">
-                    <p>674 Gonzales Drive. Washington, PA 15301</p>
+                    <p>Made by:</p>
                 </div>
             </div>
         </footer>
     </div>
-
-
 
     <script src="js/main.min.js"></script>
 </body>
